@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    margin: 0;
+    }
+
+.navegação
+{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(8, 103, 55);
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    font-size: 20px;
+    flex: 10%;
+    background-color: rgb(8, 103, 55);
+    text-align: center;
+    margin-left: 10%;
+    }
+
+.link
+{
+    flex: 50%;
+    text-align: right;
+    padding: 20px;
+}
+#botao{
+    background: rgb(154, 255, 157);
+    padding: 10px 25px;
+    color: rgb(13, 120, 36);
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+   }
+#botao:hover{
+    border: none;
+    background-color: transparent;
+    border: 2px solid rgb(59, 254, 98);
+    color:rgb(59, 254, 98) ;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgb(59, 254, 98);
+    transition: all 0.4s ease-in-out;
+    }
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 150px ;
+    grid-template-rows: 200px 200px 200px 200px ;
+    align-items: center;
+    justify-items: center;}
+
+
+.marcelo{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px; 
+    
+}
+.mateus
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px; 
+}
+.weverton
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px; 
+}
+.gustavogomez
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px; 
+}
+.luan
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px; 
+}
+.murilo
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px; 
+}
+.naves
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px; 
+}
+.garcia
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px; 
+}
+.marcosrocha
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px; 
+}
+.mayke
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px; 
+}
+.piquerez
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px; 
+}
+.vanderlan
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px; 
+}
+.eduard
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px; 
+}
+.fabinho
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px; 
+}
+.gabimenino
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px; 
+}
+.jailson
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px;
+}
+.jhon
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px;
+}
+.luisgui
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px;
+}
+.veiga
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px;
+}
+.rios{
+
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px;
+}
+.zerafa 
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px;
+}
+.arthur
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px;
+}
+.brenolope
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px;
+}
+.dudu
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px;
+}
+.endrick
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px;
+}
+.manuellopes
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px;
+}
+.rony
+{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(123, 255, 123);
+    border-radius: 5px;
+}

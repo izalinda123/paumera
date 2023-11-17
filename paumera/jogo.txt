@@ -1,0 +1,4 @@
+1. sortear uma cidade !!!!!!!!!
+2. capturar a posição que o jogador escolheu !!!
+3. fazer o calculo
+4. mostrar na tela a diferença

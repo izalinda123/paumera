@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+body{
+    margin: 0;
+    }
+
+.navegação
+{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(8, 103, 55);
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    font-size: 20px;
+    flex: 15%;
+    background-color: rgb(8, 103, 55);
+    
+    text-align: center;
+    margin-left: 10%;
+    }
+
+.links{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+        }
+.links a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+    }
+.links a:hover{
+    color: rgb(0, 255, 38);
+    border-top: 4px solid rgb(228, 255, 233);}
+#botao{
+    background: rgb(255, 255, 255);
+    padding: 10px 25px;
+    color: rgb(0, 255, 38);
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+   }
+#botao:hover{
+    border: none;
+    background-color: transparent;
+    border: 2px solid rgb(59, 254, 98);
+    color:rgb(59, 254, 98) ;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgb(59, 254, 98);
+    transition: all 0.4s ease-in-out;
+    }
+
+.principal{
+    display: flex;
+    flex-flow: row wrap;height: 300px;
+      }
+.texto{
+
+    margin-left: 10%;
+    flex: 40%;
+ }
+.imagem{
+    border-radius: 12%; 
+    display: flex;
+    flex-flow: row wrap;margin-right: 10%;
+    flex: 40%;
+    justify-content: center;align-items: center;
+    -webkit-mask-image: linear-gradient(to right, transparent 5%, black 30%);
+    background-image: url(https://placecage.com/100/180);}
+footer{
+    margin-top: 80px;
+     height: 250px;
+    background-image: linear-gradient( rgb(255, 255, 255),rgb(8, 103, 55));
+    text-align: center;
+    }

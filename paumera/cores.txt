@@ -1,0 +1,4 @@
+vermelho = 223, 7, 19
+verde = 8, 103, 55
+verde mais claro = 13, 163, 83
+amarelo = 249, 188, 19

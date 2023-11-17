@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    }
+    body{
+    margin: 0;
+    }
+    .vermelho{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        }
+        .azul{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        }
+        .verde{
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        }
+        .amarelo{
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        }
